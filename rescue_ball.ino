@@ -95,11 +95,6 @@ boolean ball_green = false;
 boolean ball_blue = false;
 boolean ball_yellow = false;
 
-void DEBUG()
-{
-  // Wait();
-}
-
 // Main
 void rescue_main()
 {
@@ -122,7 +117,7 @@ void rescue_start()
   sl(40);
   delay(550);
 
-  DEBUG();
+  
 
   ao();
   delay(500);
@@ -144,7 +139,7 @@ void rescue_start()
   ao();
   delay(500);
 
-  DEBUG();
+  
 }
 void rescue_findTriangle() // หาจุดอพยพ
 {
@@ -179,7 +174,7 @@ void rescue_findTriangle() // หาจุดอพยพ
         sl(40);
         delay(550);
 
-        DEBUG();
+        
 
         ao();
         delay(500);
@@ -386,6 +381,7 @@ void bk_sw(int Time)
 }
 
 // function of servo
+// เทกระบะ
 void Dump()
 {
   ao();
@@ -404,6 +400,7 @@ void Dump()
   delay(500);
 }
 
+// เมื่อเจอลูกบอลสีแดง จะกระทำดังนี้
 void redBall()
 {
   motor(1, -2);
