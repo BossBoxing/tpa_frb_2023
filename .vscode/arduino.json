@@ -1,0 +1,6 @@
+{
+    "configuration": "upload_method=hidMethod",
+    "board": "INEX_STM32:stm32:POP32",
+    "sketch": "tpa2023_frb_pid.ino",
+    "port": "COM5"
+}
